@@ -1,0 +1,30 @@
+{
+	"name": "roomie",
+	"description": "Stupid chat server",
+	"version": "1.0.0",
+	"main": "src",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/srcagency/roomie.git"
+	},
+	"scripts": {
+		"start": "node src/server",
+		"dev": "PORT=8022 DEBUG=* node src/server",
+		"test": "node test"
+	},
+	"dependencies": {
+		"http-body-parse": "^2.0.0",
+		"http-query-parse": "2.2.1",
+		"http-cors": "^1.0.1",
+		"debug": "^2.1.1",
+		"http-routing": "0.0.1",
+		"promised-http-server": "srcagency/promised-http-server"
+	},
+	"devDependencies": {
+		"tap": "^0.5.0",
+		"superagent": "^0.21.0",
+		"bluebird": "^2.9.4",
+		"needle": "^0.7.11",
+		"find-index": "^0.1.1"
+	}
+}
