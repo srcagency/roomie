@@ -1,6 +1,6 @@
 {
 	"name": "roomie",
-	"description": "Stupid chat server",
+	"description": "Stupid single-room chat server",
 	"version": "1.0.0",
 	"main": "src",
 	"repository": {
